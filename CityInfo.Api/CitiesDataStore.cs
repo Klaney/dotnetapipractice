@@ -20,19 +20,64 @@ namespace CityInfo.Api
                 {
                     Id = 1,
                     Name = "New York City",
-                    Description = "The one with the park"
+                    Description = "The one with the park",
+                    PointsOfInterest = new List<PointOfInterestDto>()
+                    {
+                        new PointOfInterestDto()
+                        {
+                            Id = 1,
+                            Name = "blah",
+                            Description = "more blah"
+                        },
+                        new PointOfInterestDto()
+                        {
+                            Id = 2,
+                            Name = "blah",
+                            Description = "more blah"
+                        }
+                    }
                 },
                 new CityDto()
                 {
                     Id = 2,
                     Name = "Antwerp",
-                    Description = "The one with the unfinished Cathedral"
+                    Description = "The one with the unfinished Cathedral",
+                    PointsOfInterest = new List<PointOfInterestDto>()
+                    {
+                        new PointOfInterestDto()
+                        {
+                            Id = 1,
+                            Name = "blah",
+                            Description = "more blah"
+                        },
+                        new PointOfInterestDto()
+                        {
+                            Id = 2,
+                            Name = "blah",
+                            Description = "more blah"
+                        }
+                    }
                 },
                 new CityDto()
                 {
                     Id = 3,
                     Name = "Salt Lake City",
-                    Description = "The one with the Mormons"
+                    Description = "The one with the Mormons",
+                    PointsOfInterest = new List<PointOfInterestDto>()
+                    {
+                        new PointOfInterestDto()
+                        {
+                            Id = 1,
+                            Name = "blah",
+                            Description = "more blah"
+                        },
+                        new PointOfInterestDto()
+                        {
+                            Id = 2,
+                            Name = "blah",
+                            Description = "more blah"
+                        }
+                    }
                 }
             };
         }
